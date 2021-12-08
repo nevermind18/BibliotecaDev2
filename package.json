@@ -1,24 +1,16 @@
 {
-  "name": "bibliotecadev2",
+  "name": "teste",
   "version": "1.0.0",
-  "description": "Repositório GIT que será utilizado para armazenar os commits sobre o projeto de Desenvolvimento de Sistemas 2 - IFRS",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nevermind18/BibliotecaDev2.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nevermind18/BibliotecaDev2/issues"
-  },
-  "homepage": "https://github.com/nevermind18/BibliotecaDev2#readme",
   "dependencies": {
     "discord.js": "^13.3.1",
-    "dotenv": "^10.0.0"
+    "mongodb": "^4.2.1",
+    "mongoose": "^6.0.15"
   }
 }
