@@ -57,7 +57,7 @@ module.exports = class extends Client{
     }
 
     async connectToDatabase() {
-        const connection = await connect (process.env.MONGO_URL)
+        const connection = await connect (process.env.MONGO_DB)
     
         console.log('Database conectada com sucesso!')
 
