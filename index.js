@@ -14,7 +14,7 @@ const client = new Client({
     ]
 })
 
-/*
+
 client.once('ready', function() {
     console.log('Bot logado!')
 })
@@ -23,9 +23,9 @@ client.on('messageCreate', function (message) {
     if (message.content === "Oi!"){
         message.reply('Olá, tudo bem?')
     }
-    //console.log(message)
+    console.log(message)
 })
-*/
+
 
 client.login(process.env.BOT_TOKEN)
 
