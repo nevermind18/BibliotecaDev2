@@ -62,6 +62,6 @@ module.exports = class extends Client{
         console.log('Database conectada com sucesso!')
 
         this.db = { connection, ...Models }
-          
+        //A conexão com o Mongo DB ATLAS não funciona adequadamente dependendo do DNS. É necessário alterar o DNS da máquina em que roda, para o do google 8.8.8.8 e 8.8.4.4 
     }
 }
